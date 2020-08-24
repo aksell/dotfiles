@@ -1,2 +1,2 @@
 # Dotfiles
-The dotfiles git repor are set up following this blog post https://martijnvos.dev/using-a-bare-git-repository-to-store-linux-dotfiles/
+The dotfiles git repo is set up following this guide https://martijnvos.dev/using-a-bare-git-repository-to-store-linux-dotfiles/
