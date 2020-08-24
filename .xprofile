@@ -1,1 +1,1 @@
-setxkbmap -model pc105 -layout us,no -variant colemak, -option grp:ctrl_alt_toggle
+setxkbmap -model pc105 -layout us,no -variant colemak, -option grp:ctrl_alt_toggle,ctrl:nocaps
