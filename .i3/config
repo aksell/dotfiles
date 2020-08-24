@@ -421,3 +421,5 @@ mode "$mode_gaps_outer" {
 
 # Keyboard layout indicator
 exec --no-startup-id gxkb
+
+exec --no-startup-id redshift
