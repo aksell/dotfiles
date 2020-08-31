@@ -423,3 +423,6 @@ mode "$mode_gaps_outer" {
 exec --no-startup-id gxkb
 
 exec --no-startup-id redshift
+
+bindsym Print exec flameshot full
+bindsym Shift+Print exec flameshot gui
