@@ -2,4 +2,4 @@
 	name = Aksel Lenes
 	email = akslenes@gmail.com
 [core]
-	editor = code -w
+	editor = /usr/bin/code -w
