@@ -109,3 +109,8 @@ alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 alias z=zathura
 
 export EDITOR=code
+
+# Activate pyenv
+export PATH="/home/aksell/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
