@@ -114,3 +114,8 @@ export EDITOR=code
 export PATH="/home/aksell/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
+
+# Blueye
+alias p2="ssh -o 'UserKnownHostsFile=/dev/null' -o 'StrictHostKeyChecking=no' root@192.168.1.101"
+
+source $HOME/.config/personal/secrets.sh
