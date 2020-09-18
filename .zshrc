@@ -117,5 +117,7 @@ eval "$(pyenv virtualenv-init -)"
 
 # Blueye
 alias p2="ssh -o 'UserKnownHostsFile=/dev/null' -o 'StrictHostKeyChecking=no' root@192.168.1.101"
+alias uscp="scp -o 'UserKnownHostsFile=/dev/null' -o 'StrictHostKeyChecking=no'"
 
 source $HOME/.config/personal/secrets.sh
+
