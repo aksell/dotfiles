@@ -3,3 +3,5 @@
 	email = akslenes@gmail.com
 [core]
 	editor = /usr/bin/code -w
+[pull]
+	rebase = true
