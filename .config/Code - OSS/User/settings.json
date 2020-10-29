@@ -26,6 +26,10 @@
     "git.autofetch": false,
     "window.zoomLevel": 1,
     "files.associations": {
-        "*.cu": "cpp"
+        "*.cu": "cpp",
+        "*.cpp": "cpp",
+        "*.hpp": "cpp",
+        "*.h": "cpp",
+        "*.c": "c",
     }
 }
