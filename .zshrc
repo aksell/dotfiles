@@ -121,3 +121,7 @@ alias uscp="scp -o 'UserKnownHostsFile=/dev/null' -o 'StrictHostKeyChecking=no'"
 
 source $HOME/.config/personal/secrets.sh
 
+# For ssh-agent systemd service
+# https://stackoverflow.com/a/38980986
+export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
+
