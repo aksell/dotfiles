@@ -426,3 +426,7 @@ exec --no-startup-id redshift
 
 bindsym Print exec flameshot full
 bindsym Shift+Print exec flameshot gui
+
+# Move workspace to monitor above or below
+bindsym $mod+Ctrl+k move workspace to output up
+bindsym $mod+Ctrl+j move workspace to output down
