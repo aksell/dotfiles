@@ -145,3 +145,8 @@ if [ -f "${SSH_ENV}" ]; then
 else
     start_agent;
 fi
+
+# Pacman
+# https://wiki.archlinux.org/index.php/Pacman/Tips_and_tricks#Removing_unused_packages_(orphans)
+alias rm-orphans="pacman -Qtdq | pacman -Rns -"
+
